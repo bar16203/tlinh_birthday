@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'happy monkey', sans-serif;
+    text-align: center;
+    width: 900px;
+    margin: auto;
+    background: linear-gradient(#EFB0C9,#a2d2ff);
+}
+.anh{
+    width: 300px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+    border: 5px solid #a2d2ff ;
+}
+h1{
+    width: 300px;
+    margin: 30px auto;
+}
+h2,h4{
+    margin: 10px auto 0 auto;
+    padding: auto;
+}
+.anh-1,.anh-2,.anh-3,.anh-4,.anh-5{
+    border-radius: 10px;
+    border: 10px solid plum;
+    width: 600px;
+    height: 750px;
+    margin: 10px auto;
+    background-size: cover;
+    background-image: url(images/anh1.jpg);
+}
+.anh-1{
+    background-image: url(images/anh1.jpg);
+}
+.anh-2{
+    background-image: url(images/anh2.jpg);
+}
+.anh-3{
+    background-image: url(images/anh3.jpg);
+}
+.anh-4{
+    background-image: url(images/anh4.jpg);
+}
+.anh-5{
+    background-image: url(images/anh5.jpg);
+}
+.anh-1:hover{
+    background-image: url(images/anh-1.jpg);
+}
+.anh-2:hover{
+    background-image: url(images/anh-2.jpg);
+}
+.anh-3:hover{
+    background-image: url(images/anh-3.jpg);
+}
+.anh-4:hover{
+    background-image: url(images/anh-4.gif);
+}
+.anh-5:hover{
+    background-image: url(images/anh-5.jpg);
+}
+
+
